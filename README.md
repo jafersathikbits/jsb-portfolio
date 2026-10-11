@@ -140,4 +140,5 @@ This is a personal portfolio. For corrections or suggestions, open an issue or c
 
 ## License
 
-No open-source license is included. The portfolio content, personal photograph, and resume should not be reused without permission unless explicit licensing terms are added.
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
