@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Jafer Sathik B · Software Developer</title>
 <meta name="description" content="Jafer Sathik B, software developer and B.Tech IT student at PSG College of Technology (2027). Builds and deploys web apps, backend systems and data/AI tools. Open to internships and full-time roles.">
-<link rel="canonical" href="https://jafersathikb-india.github.io/portfolio/">
+<link rel="canonical" href="https://jafersathikbits.github.io/jsb-portfolio/">
 <meta name="theme-color" content="#F3F5F8" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0C1018" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="profile">
-<meta property="og:url" content="https://jafersathikb-india.github.io/portfolio/">
+<meta property="og:url" content="https://jafersathikbits.github.io/jsb-portfolio/">
 <meta property="og:title" content="Jafer Sathik B · Software Developer">
 <meta property="og:description" content="Software developer who takes products from requirements to a live server. Two production apps for real clients, five projects across web, backend and AI.">
-<meta property="og:image" content="https://jafersathikb-india.github.io/portfolio/assets/jafer.jpg">
+<meta property="og:image" content="https://jafersathikbits.github.io/jsb-portfolio/assets/jafer.jpg">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232346D8'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='700' fill='%23fff' text-anchor='middle'%3EJS%3C/text%3E%3C/svg%3E">
 <script>
@@ -21,7 +21,7 @@
 if(t!=='light'&&t!=='dark')t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';r.setAttribute('data-theme',t)})();
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Jafer Sathik B","jobTitle":"Software Developer","url":"https://jafersathikb-india.github.io/portfolio/","image":"https://jafersathikb-india.github.io/portfolio/assets/jafer.jpg","email":"mailto:jafersathikbits@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Coimbatore","addressRegion":"Tamil Nadu","addressCountry":"IN"},"alumniOf":{"@type":"CollegeOrUniversity","name":"PSG College of Technology"},"sameAs":["https://github.com/jafersathikbits","https://www.linkedin.com/in/jafersathikbits"]}
+{"@context":"https://schema.org","@type":"Person","name":"Jafer Sathik B","jobTitle":"Software Developer","url":"https://jafersathikbits.github.io/jsb-portfolio/","image":"https://jafersathikbits.github.io/jsb-portfolio/assets/jafer.jpg","email":"mailto:jafersathikbits@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Coimbatore","addressRegion":"Tamil Nadu","addressCountry":"IN"},"alumniOf":{"@type":"CollegeOrUniversity","name":"PSG College of Technology"},"sameAs":["https://github.com/jafersathikbits","https://www.linkedin.com/in/jafersathikbits"]}
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -219,7 +219,12 @@ section.block{padding-block:clamp(52px,7vw,88px)}
 .proj .spec b{color:var(--fg);font-weight:500}
 .proj .body{padding:22px;display:flex;flex-direction:column;gap:12px;flex:1}
 .proj .kind{font:500 .72rem var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--spark)}
-.proj h3{font-size:1.35rem;font-weight:700;letter-spacing:-.015em}
+.proj-title-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.proj-title-row h3{font-size:1.35rem;font-weight:700;letter-spacing:-.015em;min-width:0}
+.repo-link{flex:0 0 auto;display:inline-flex;align-items:center;gap:5px;font-size:.82rem;font-weight:600;color:var(--accent);text-decoration:none;border:1px solid color-mix(in srgb,var(--accent) 35%,transparent);border-radius:8px;padding:5px 9px;white-space:nowrap}
+.repo-link:hover{background:color-mix(in srgb,var(--accent) 10%,transparent)}
+.repo-link svg{width:14px;height:14px}
+@media(max-width:480px){.proj-title-row{gap:8px}.repo-link{font-size:.76rem;padding:5px 7px}.proj-title-row h3{font-size:1.15rem}}
 .proj p{color:var(--muted)}
 .proj .shows{font-size:.93rem;color:var(--fg)}
 .proj .shows b{font-weight:600;color:var(--accent)}
@@ -484,7 +489,8 @@ footer a:hover{color:var(--fg)}
             <div class="row">
               <div class="chips"><span class="chip">PHP</span><span class="chip">Laravel</span><span class="chip">MySQL</span><span class="chip">Blade</span><span class="chip">JavaScript</span><span class="chip">Tailwind CSS</span><span class="chip">PHPUnit</span><span class="chip">Telegram Bot API</span><span class="chip">Linux</span><span class="chip">cPanel</span></div>
               <div class="links-row">
-                <a class="lnk" href="https://ams.itcoresolutions.in/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>Live site</a>
+                <a class="lnk" href="https://github.com/jafersathikbits/itcoresolutions-inventory" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.07c-3.1.67-3.76-1.32-3.76-1.32-.5-1.28-1.23-1.62-1.23-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.7 2.6 1.21 3.23.93.1-.72.39-1.21.7-1.49-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.11-1.45 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.61 5.23-5.1 5.51.4.35.75 1.03.75 2.08V22c0 .29.2.63.76.52A11.1 11.1 0 0 0 12 .9Z"/></svg>GitHub</a>
+                <a class="lnk" href="https://ams.itcoresolutions.in/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>Live Demo</a>
                 <a class="lnk" href="https://drive.google.com/file/d/1boIErYliPXP2vxolYZh5e603v3yvKcKE/view?usp=drive_link" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg>Certificate</a>
               </div>
             </div>
@@ -502,7 +508,8 @@ footer a:hover{color:var(--fg)}
             <div class="row">
               <div class="chips"><span class="chip">Next.js</span><span class="chip">React</span><span class="chip">JavaScript</span><span class="chip">MongoDB</span><span class="chip">Mongoose</span><span class="chip">JWT</span><span class="chip">Nodemailer</span><span class="chip">Tailwind CSS</span></div>
               <div class="links-row">
-                <a class="lnk" href="https://yutira.psgtech.ac.in/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>Live site</a>
+                <a class="lnk" href="https://github.com/jafersathikbits/yutira-2026" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.07c-3.1.67-3.76-1.32-3.76-1.32-.5-1.28-1.23-1.62-1.23-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.7 2.6 1.21 3.23.93.1-.72.39-1.21.7-1.49-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.11-1.45 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.61 5.23-5.1 5.51.4.35.75 1.03.75 2.08V22c0 .29.2.63.76.52A11.1 11.1 0 0 0 12 .9Z"/></svg>GitHub</a>
+                <a class="lnk" href="https://yutira.psgtech.ac.in/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>Live Demo</a>
                 <a class="lnk" href="https://drive.google.com/file/d/1FVLj7eXyT4_Ns6AzMUZimyUuhvQ9t3i4/view?usp=drive_link" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg>Certificate</a>
               </div>
             </div>
@@ -532,7 +539,7 @@ footer a:hover{color:var(--fg)}
           <div class="body">
             <div class="col-a">
               <span class="kind">Client project · Project lead</span>
-              <h3>Custom Inventory Management System</h3>
+              <div class="proj-title-row"><h3>Custom Inventory Management System</h3><a class="repo-link" href="https://github.com/jafersathikbits/itcoresolutions-inventory" target="_blank" rel="noopener" aria-label="GitHub repository for Custom Inventory Management System">GitHub ↗</a></div>
               <p>A manufacturing inventory platform for IT Core Solutions. It computes bills of materials (including composite materials), takes orders, deducts stock safely and sends daily PDF reports and Telegram alerts to the owner.</p>
               <p class="shows"><b>Shows:</b> ownership from requirements to release, data integrity, testing.</p>
               <div class="chips"><span class="chip">PHP</span><span class="chip">Laravel</span><span class="chip">MySQL</span><span class="chip">Blade</span><span class="chip">Tailwind CSS</span><span class="chip">PHPUnit</span><span class="chip">Telegram Bot API</span><span class="chip">cPanel</span></div>
@@ -548,7 +555,7 @@ footer a:hover{color:var(--fg)}
             </details>
           </div>
           <div class="foot">
-            <a class="lnk" href="https://ams.itcoresolutions.in/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>Live site</a>
+            <a class="lnk" href="https://ams.itcoresolutions.in/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>Live Demo</a>
             <a class="lnk" href="https://drive.google.com/file/d/1boIErYliPXP2vxolYZh5e603v3yvKcKE/view?usp=drive_link" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg>Certificate</a>
           </div>
         </article>
@@ -558,7 +565,7 @@ footer a:hover{color:var(--fg)}
           <div class="spec"><span><b>248</b> registrations</span><span><b>28</b> papers</span><span><b>0</b> downtime</span></div>
           <div class="body">
             <span class="kind">Freelance · Event platform</span>
-            <h3>Yutira 2026</h3>
+            <div class="proj-title-row"><h3>Yutira 2026</h3><a class="repo-link" href="https://github.com/jafersathikbits/yutira-2026" target="_blank" rel="noopener" aria-label="GitHub repository for Yutira 2026">GitHub ↗</a></div>
             <p>Registration and admin platform for a two-day symposium at PSG Tech. It verified emails, issued participant IDs, tracked payments and attendance, and handled paper reviews.</p>
             <p class="shows"><b>Shows:</b> delivering on a fixed date, supporting users live.</p>
             <div class="chips"><span class="chip">Next.js</span><span class="chip">React</span><span class="chip">JavaScript</span><span class="chip">MongoDB</span><span class="chip">Mongoose</span><span class="chip">JWT</span><span class="chip">Nodemailer</span><span class="chip">Tailwind CSS</span></div>
@@ -572,7 +579,8 @@ footer a:hover{color:var(--fg)}
             </details>
           </div>
           <div class="foot">
-            <a class="lnk" href="https://yutira.psgtech.ac.in/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>Live site</a>
+            <a class="lnk" href="https://yutira.psgtech.ac.in/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>Live Demo</a>
+            <a class="lnk" href="https://drive.google.com/file/d/1FVLj7eXyT4_Ns6AzMUZimyUuhvQ9t3i4/view?usp=drive_link" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg>Certificate</a>
           </div>
         </article>
 
@@ -581,7 +589,7 @@ footer a:hover{color:var(--fg)}
           <div class="spec"><span>masked embeddings</span><span>Merkle-verified citations</span><span><b>8</b> clusters probed</span></div>
           <div class="body">
             <span class="kind">AI · Security</span>
-            <h3>Privacy-Preserving RAG</h3>
+            <div class="proj-title-row"><h3>Privacy-Preserving RAG</h3><a class="repo-link" href="https://github.com/jafersathikbits/privacy-rag" target="_blank" rel="noopener" aria-label="GitHub repository for Privacy-Preserving RAG">GitHub ↗</a></div>
             <p>A document Q&amp;A system that retrieves over masked query embeddings with clustered FAISS indexes, so raw embeddings are never stored. Answers stream with citations that are verified against a Merkle tree.</p>
             <p class="shows"><b>Shows:</b> security thinking, performance tuning, API design.</p>
             <div class="chips"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">FAISS</span><span class="chip">Sentence Transformers</span><span class="chip">Ollama (Llama 3.1)</span><span class="chip">OCR</span><span class="chip">Merkle Trees</span></div>
@@ -602,7 +610,7 @@ footer a:hover{color:var(--fg)}
           <div class="spec"><span><b>3</b> models compared</span><span>SHAP per prediction</span><span>batch CSV scoring</span></div>
           <div class="body">
             <span class="kind">Machine learning</span>
-            <h3>Predictive Vehicle Maintenance</h3>
+            <div class="proj-title-row"><h3>Predictive Vehicle Maintenance</h3><a class="repo-link" href="https://github.com/jafersathikbits/predictive-vehicle-maintenance" target="_blank" rel="noopener" aria-label="GitHub repository for Predictive Vehicle Maintenance">GitHub ↗</a></div>
             <p>An ML tool that predicts which vehicles need maintenance from usage, condition and service history, replacing fixed service schedules. Each prediction comes with a plain-language explanation of why.</p>
             <p class="shows"><b>Shows:</b> data analysis, model evaluation, explaining results to non-experts.</p>
             <div class="chips"><span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">NumPy</span><span class="chip">scikit-learn</span><span class="chip">Random Forest</span><span class="chip">XGBoost</span><span class="chip">LightGBM</span><span class="chip">SHAP</span><span class="chip">Streamlit</span></div>
@@ -622,7 +630,7 @@ footer a:hover{color:var(--fg)}
           <div class="spec"><span><b>6</b> lifecycle flows</span><span>daily overdue scheduler</span><span>audit log</span></div>
           <div class="body">
             <span class="kind">Hackathon · Niral Thiruvizha 3.0</span>
-            <h3>Government Plot Compliance Web Application</h3>
+            <div class="proj-title-row"><h3>Government Plot Compliance Web Application</h3><a class="repo-link" href="https://github.com/jafersathikbits/gov-plot-compliance-app" target="_blank" rel="noopener" aria-label="GitHub repository for Government Plot Compliance Web Application">GitHub ↗</a></div>
             <p>A Laravel application for the full government plot-lease lifecycle: allotment, milestone compliance, incentive claims, closure certificates and legal escalation.</p>
             <p class="shows"><b>Shows:</b> modelling a complex workflow, access control, auditability.</p>
             <div class="chips"><span class="chip">PHP</span><span class="chip">Laravel</span><span class="chip">MySQL</span><span class="chip">Blade</span><span class="chip">Tailwind CSS</span><span class="chip">RBAC</span><span class="chip">DomPDF</span></div>
